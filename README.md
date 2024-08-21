@@ -59,6 +59,10 @@
 
 - 우리가 하는 것은 **컴포넌트 스캔과 의존관계 설정**을 사용!
 
-## 
+## 4. get과 post는 같은 url이여도 상관없나?
 - get : 그냥 url을 통해 직접 치는 것 (주로 조회)
 - post : 데이터를 form에 넣어서 전달하는 것 
+
+## 5. h2 다운로드
+https://herojoon-dev.tistory.com/117 -> 설치방법
+https://bestinu.tistory.com/41 -> 확인해야 하는 것
