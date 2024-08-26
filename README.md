@@ -69,4 +69,11 @@ https://bestinu.tistory.com/41 -> 확인해야 하는 것
 
 
 ## 6. @Transactional
-- 테스트 클래스에 @Transactional annotation이 붙는다면, 트랙젝션을 시작하고 테스트가 끝나면 롤백해줌 -> 즉, 반복적으로 테스트 실행이 가능하다(인위적으로 db 내용을 지울 필요가 없다) 
+- 테스트 클래스에 @Transactional annotation이 붙는다면, 트랙젝션을 시작하고 테스트가 끝나면 롤백해줌 -> 즉, 반복적으로 테스트 실행이 가능하다(인위적으로 db 내용을 지울 필요가 없다)
+- Service 클래스 등에서 사용한다면 데이터를 넣거나 변경할 때 사용함 
+
+## 7. JPA
+- JPA는 인터페이스 -> 구현체가 hibernate임
+- JPA는 객체와 ORM기술임(Object Relational Mapping)
+- **객체 지향 코드와 관계형 데이터베이스를 매핑하여 상호 작용을 쉽게 해주는 기술**
+- Spring boot jpa != Spring data jpa
