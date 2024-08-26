@@ -66,3 +66,7 @@
 ## 5. h2 다운로드
 https://herojoon-dev.tistory.com/117 -> 설치방법
 https://bestinu.tistory.com/41 -> 확인해야 하는 것
+
+
+## 6. @Transactional
+- 테스트 클래스에 @Transactional annotation이 붙는다면, 트랙젝션을 시작하고 테스트가 끝나면 롤백해줌 -> 즉, 반복적으로 테스트 실행이 가능하다(인위적으로 db 내용을 지울 필요가 없다) 
